@@ -8,13 +8,8 @@ export default function NavBar() {
           <li className=" link">E-Vins</li>
           <li className=" link">boutique</li>
           <li className=" ">
-            <button className="uppercase link">
-              profil
-            </button>{" "}
-            /{" "}
-            <button className="uppercase link">
-              Panié
-            </button>
+            <button className="uppercase link">profil</button> /{" "}
+            <button className="uppercase link">Panié</button>
           </li>
         </ol>
       </nav>

@@ -2,3 +2,39 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer components {
+
+  /* Transition de l'image de la home page ! */
+  .imgHome {
+    height: 86vh;
+    -webkit-filter: grayscale(
+      85%
+    ); /* Pour les navigateurs Chrome, Safari, Opera */
+    filter: grayscale(85%); /* Firefox */
+    transition: all 0.5s;
+  }
+  .imgHome:hover {
+    transition: all 0.5s;
+    -webkit-filter: grayscale(
+      0%
+    );
+    filter: grayscale(0%);
+  }
+
+  .imgProductHome {
+    height: 25vh;   
+    -webkit-filter: grayscale(
+      65%
+    ); /* Pour les navigateurs Chrome, Safari, Opera */
+    filter: grayscale(65%); /* Firefox */
+    transition: all 0.5s;
+  }
+
+  .imgProductHome:hover {
+    transition: all 0.5s;
+    -webkit-filter: grayscale(
+      0%
+    );
+    filter: grayscale(0%);
+  }
+}
