@@ -37,4 +37,9 @@
     );
     filter: grayscale(0%);
   }
+
+  .img {
+    height: 50vh;    
+  }
+
 }
