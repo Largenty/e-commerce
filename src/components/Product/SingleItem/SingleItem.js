@@ -44,7 +44,7 @@ export default function SingleItem() {
               {" "}
               Prix: <span>14.99€</span>{" "}
             </p>
-            <button className="w-full border hover:border-green-400 hover:text-green-400 mt-8 p-4">
+            <button className="w-full border hover:border-green-400 hover:text-green-400 mt-8 p-4 focus:outline-none">
               Acheter
             </button>
           </div>

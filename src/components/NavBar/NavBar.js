@@ -13,8 +13,8 @@ export default function NavBar() {
           <li className="link pl-2 pr-2" onClick={homeLink}>E-Vins</li>
           <li className="link">boutique</li>
           <li className=" ">
-            <button className="uppercase link pl-2 pr-2" onClick={profilLink}>profil</button> /{" "}
-            <button className="uppercase link pl-2 pr-2" onClick={cartLink}>Panié</button>
+            <button className="uppercase link pl-2 pr-2 focus:outline-none" onClick={profilLink}>profil</button> /{" "}
+            <button className="uppercase link pl-2 pr-2 focus:outline-none" onClick={cartLink}>Panié</button>
           </li>
         </ol>
       </nav>

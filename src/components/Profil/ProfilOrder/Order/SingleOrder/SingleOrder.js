@@ -3,8 +3,8 @@ import React from "react";
 export default function SingleOrder() {
   return (
     <main className="">
-      <div className="flex w-full mt-8 justify-center">
-        <div className="w-5/6 mt-8 ">
+      <div className="flex w-full mt-8 justify-around">
+        <div className="flex w-5/6 mt-8 justify-around flex-col">
           <h3 className="font-bold text-xl">Commande N° 457893</h3>
           <div className="mt-8">
             <div className="flex justify-between mr-4 w-1/2 mb-2 ">
