@@ -9,10 +9,10 @@ export default function ProductHome() {
     <div className="w-64 m-4 mt-4">
       <div
         className="imgProductHome bg-home-product bg-contain w-full bg-center bg-no-repeat cursor-pointer border-b hover:border-red-300"
-        alt="Image de la page d'accueil"
+        alt="Image du produit"
         onClick={itemLink}
       />
-      <div className="flex mt-2 ">
+      <div className="flex mt-4 ">
         <div className="w-2/3 mt-2">
           <h3 className="text-lg font-bold capitalize">produits1</h3>
           <p className="uppercase">11.99€</p>

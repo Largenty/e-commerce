@@ -7,7 +7,7 @@ module.exports = {
         "home-img":
           "url(https://www.moncopaincaviste.com/medias/matt-lamers-679346-unsplash-1452.jpg)",      
           
-          "home-product": "url(https://shop.pierre-chavin.com/1684-thickbox_default/pierre-0-rouge-sans-alcool.jpg)",
+          "home-product": "url(https://v-and-o.com/boutique/183/le-viala.jpg)",
       }),
     },
   },
